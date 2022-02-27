@@ -24,6 +24,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version   = 2020061503;
-$plugin->requires  = 2020061500;    // Requires M3.9.
+$plugin->version   = 2021051702;
+$plugin->requires  = 2021051700;    // Requires Moodle 3.11.
 $plugin->component = 'repository_slideshare';

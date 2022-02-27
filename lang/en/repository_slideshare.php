@@ -28,6 +28,10 @@ $string['pluginname_help'] = 'A Slideshare search repository';
 
 $string['slideshare:view'] = 'View the Slideshare repository';
 
+/*
+ As opposed to setting these options in the get_type_option_names() method,
+ we can define them here
+ */
 $string['enablecourseinstances'] = 'Allow course administrators to add a repository instance into the course';
 $string['enableuserinstances'] = 'Allow users to add a repository instance into the user context';
 
@@ -38,7 +42,3 @@ $string['filesperpageprompt'] = 'Default results per page.';
 
 $string['searchtermprompt'] = 'Enter Search Term';
 $string['resultsperpageprompt'] = 'Number of results per page';
-
-$string['apierror'] = 'An API error occurred - the message is "{$a}"';
-$string['parseerror'] = 'Error parsing the response from Slideshare API';
-
